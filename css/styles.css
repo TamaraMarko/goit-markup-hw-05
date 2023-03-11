@@ -753,6 +753,8 @@ padding: 40px 32px 0 ;
   top: 50%;
   left: 50%;
 
+  display: flex;
+  justify-content: flex-end;
 
   width: 408px;
   height: 576px;
@@ -765,4 +767,18 @@ border-radius: 4px;
 
 transform: translate(-50%, -50%) scale(1);
 transition: transform 250ms var(--timing-function);
+}
+
+.modal-btn {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  background: #E7E9FC;
+  border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.1);
 }
