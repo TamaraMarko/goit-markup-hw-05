@@ -75,7 +75,7 @@
       <section class="hero overlay">
         <div class="container hr-cntr">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button btn" type="button">
+          <button data-modal-open class="hero-button btn" type="button">
             Order Service
           </button>
         </div>
@@ -476,5 +476,13 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden"  data-modal>
+      <div class="modal">
+        <p>Lorem ipsum dolor sit amet co
+          nsectetur adipisicing elit. Quae, laudantium.</p>
+          <button data-modal-close class="btn">Close</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
